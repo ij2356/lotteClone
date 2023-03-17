@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "OGG-ROMAN";
+  font-style: normal;
+  src: url("../fonts/OGG-ROMAN.OTF") format("opentype");
+}
+@font-face {
+  font-family: "OGG-ITALIC";
+  font-style: normal;
+  src: url("../fonts/OGG-ITALIC.OTF") format("opentype");
+}
+@font-face {
+  font-family: "helvetica-roman";
+  font-style: normal;
+  src: url("../fonts/HelveticaNeueLTStd-Roman.otf") format("opentype");
+}
+@font-face {
+  font-family: "helvetica-ex";
+  font-style: normal;
+  src: url("../fonts/HelveticaNeueLTStd-Ex.otf") format("opentype");
+}
+
+.ott-font {
+  font-family: "OGG-ROMAN";
+}
+.ott-font-italic {
+  font-family: "OGG-ITALIC";
+}
+.hel-roman {
+  font-family: "helvetica-roman";
+}
+.hel-ex {
+  font-family: "helvetica-ex";
+  letter-spacing: normal;
+}

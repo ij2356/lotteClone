@@ -1,0 +1,53 @@
+@font-face {
+  src: url("../fonts/HelveticaNeueLTStd-Roman.otf");
+  font-family: "roman";
+}
+
+@font-face {
+  src: url("../fonts/OGG-ROMAN.OTF");
+  font-family: "ogg";
+}
+.mouse-cursor {
+  position: fixed;
+  width: 142px;
+  height: 78px;
+  border-radius: 100%;
+  border: 1px solid black;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 99;
+  /**/
+  will-change: left, right;
+}
+.mouse-cursor span {
+  font-weight: 400;
+}
+.explore-txt {
+  position: absolute;
+  font-size: 22px;
+  font-weight: 600;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "ogg";
+  letter-spacing: -0.7px;
+}
+.explore-txt > span {
+  font-family: "ogg";
+  letter-spacing: -0.7px;
+  font-weight: 600;
+}
+
+.mouse-cursor.hover {
+  width: 10px;
+  height: 10px;
+  border: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+}
+
+.mouse-cursor.hover .explore-txt {
+  display: none;
+}
